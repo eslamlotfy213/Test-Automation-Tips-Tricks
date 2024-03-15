@@ -1,0 +1,15 @@
+1.first create a properties file  has language=AR or EN
+2.will create 2 files  json files:
+ one for arabic languages
+ two for english languages
+3.go to test LocalizationTesting file
+its has before class , test , after class
+4. go to before class
+check the "src/test/java/Localization/TestData_"+pro.getProperty("language")+".json"
+ it will work based data comes from properties file  has language=AR or EN
+ for example if add language=AR
+ then src/test/java/Localization/TestData_"+AR+".json"
+ for example if add language=EN
+  then src/test/java/Localization/TestData_"+EN+".json"
+
+
